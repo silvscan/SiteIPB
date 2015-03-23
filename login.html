@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Rafael Scane">
+    <link rel="icon" href="">
+
+	<title>IPB Jardim Califórnia</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	
+	<!--Bootstrap-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<style type="text/css">
+		body a, p, label{
+			color: gray;
+		}
+		
+		body a:hover{
+			color: #619D2B;
+			text-decoration: none;
+		}
+
+		.fundo{
+			background: #eee;
+		}
+		
+		.form-login{
+			background: rgba();
+			margin-top: 40px;
+			padding-bottom: 60px;
+		}
+
+		.colorgraph{
+			height: 5px;
+			border-top: 0;
+			background: #c4e17f;
+			background-image: linear-gradient(to right,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);
+		}
+	</style>
+	<!--[ifltIE9]>
+		<scriptsrc="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav class="navbar navbar-static-top topo">
+        <div class="container">
+          	<div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	            </button>
+	            <a class="area-logo" href="index_3.0.html">
+			    	<img src="img/logo.png" alt="IPB Jardim Califórnia" class="logo">
+	            </a>
+        	</div>
+			 
+        	<div id="navbar" class="collapse navbar-collapse">
+            	<ul class="nav navbar-nav navbar-right navbar-login">
+			    	<li class=""><a href="cadastro-usuario.html" style="border: none;"><i class="glyphicon glyphicon-pencil"></i>CADASTRE-SE</a></li>
+			    	<li class="active"><a href="login.html" style="border: none;"><i class="glyphicon glyphicon-user"></i>ENTRAR</a></li>
+				</ul>
+				<br class="b1"><br class="b2">
+				<ul class="nav navbar-nav navbar-right menubar">
+				    <li class=""><a href="index_3.0.html">INÍCIO</a></li>
+				    <li class=""><a href="#">SOBRE</a></li>
+				    <li class=""><a href="#">PASTOR</a></li>
+				    <li class=""><a href="#">NOVIDADES</a></li>
+				    <li class=""><a href="#">CONTATO</a></li>
+				</ul>
+        	</div>
+      	</div>
+    </nav>
+	
+	<div class="container-fluid fundo-form-log-cad-reset">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 form-login">
+				<form method="POST" action="" accept-charset="UTF-8" role="form" id="loginform" class="form-signin"><input name="_token" type="hidden" value="">
+					<fieldset>
+				  		<h3 class="sign-up-title" style="color:dimgray; text-align: center">Informe seu e-mail e senha</h3>
+				  		<hr class="colorgraph">
+					    <div class="input-group">
+			              	<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+			              	<input type="email" class="form-control" id=""placeholder="E-mail">
+			            </div>
+			            <div class="input-group">
+			              	<span class="input-group-addon"><i class=" glyphicon glyphicon-lock"></i></span>
+			              	<input class="form-control" placeholder="Senha" name="senha" type="password" value="">
+			            </div>
+					    <a class="pull-right" href="reset-senha.html">Esqueceu sua senha?</a>
+						<div class="checkbox" style="width:140px;">
+					    	<label style="color:gray"><input name="relembrar" type="checkbox" value="relembrar" >Relembrar</label>
+					    </div>
+					    <input class="btn btn-lg btn-success btn-block" type="submit" value="Entrar">
+					    <p class="text-center" style="margin-top:10px;">OU</p>
+					    <input class="btn btn-lg btn-primary btn-block" type="submit" value="Entrar com Facebook">
+					  	<br>
+					  	<p class="text-center"><a href="cadastro-usuario.html">Deseja cadastrar uma nova conta?</a></p>
+				  	</fieldset>
+			  	</form>
+			</div>			
+		</div>
+	</div>
+
+	<!--Javascript-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
