@@ -7,6 +7,7 @@ body{
 	.topo{
 		height: auto;
 		border-bottom: 1px solid #eee;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px 2px;
 		margin-bottom: 2px;
 	}
 
@@ -74,7 +75,7 @@ body{
 /*INICIO BARRA DOS HORARIOS DE CULTO*/
 	.div-hr-cultos{
 		background: #eee;
-		height: 100px;
+		height: 150px;
 	}
 
 	.div-ro{
@@ -150,6 +151,45 @@ body{
 	    transform: rotate(360deg);
 	}
 /*FINAL SNNIPETS PAINEL ROTATIVO*/
+
+/*INICIO RODAPÉ*/
+	.fundo-rodape{
+		background: black;
+		height: 300px;
+	}
+
+	.texto-rodape a{
+		color: #619D2B;
+		text-decoration: none;
+		margin-top: 50px;
+	}
+/*FINAL RODAPÉ*/
+
+
+.flex-video {
+position: relative;
+padding-top: 25px;
+padding-bottom: 67.5%;
+height: 0;
+margin-bottom: 16px;
+overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe, .flex-video object,
+.flex-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 45%;
+	height: 45%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+.flex-video { padding-top: 0; }
+}
+
 
 /*dispositivo no formato paisagem e abaixos */
 @media (max-width: 480px) {

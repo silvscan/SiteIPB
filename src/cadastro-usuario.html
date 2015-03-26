@@ -68,18 +68,48 @@
 	            </a>
         	</div>
 			 
-        	<div id="navbar" class="collapse navbar-collapse">
+        	<div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            	
             	<ul class="nav navbar-nav navbar-right navbar-login">
 			    	<li class="active"><a href="cadastro-usuario.html" style="border: none;"><i class="glyphicon glyphicon-pencil"></i>CADASTRE-SE</a></li>
 			    	<li class=""><a href="login.html" style="border: none;"><i class="glyphicon glyphicon-user"></i>ENTRAR</a></li>
 				</ul>
+
 				<br class="b1"><br class="b2">
+
 				<ul class="nav navbar-nav navbar-right menubar">
 				    <li class=""><a href="index_3.0.html">INÍCIO</a></li>
-				    <li class=""><a href="#">SOBRE</a></li>
-				    <li class=""><a href="#">PASTOR</a></li>
-				    <li class=""><a href="#">NOVIDADES</a></li>
-				    <li class=""><a href="#">CONTATO</a></li>
+					  
+					<li role="presentation" class="dropdown">
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="true">
+					        SOBRE <span class="caret"></span>
+					    </a>
+					    <ul class="dropdown-menu" role="menu">
+					        <li class=""><a href="index_3.0.html"></a></li>
+					        <li class=""><a href="index_3.0.html">INÍCIO</a></li>
+					        <li class=""><a href="index_3.0.html">INÍCIO</a></li>
+					    </ul>
+					</li>
+
+					<li role="presentation" class="dropdown">
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+					        PASTOR <span class="caret"></span>
+					    </a>
+					    <ul class="dropdown-menu" role="menu">
+					        ...
+					    </ul>
+					</li>
+
+					<li role="presentation" class="dropdown">
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+					        NOVIDADES <span class="caret"></span>
+					    </a>
+					    <ul class="dropdown-menu" role="menu">
+					        ...
+					    </ul>
+					</li>
+
+				    <li class=""><a href="#">CONTATO </a></li>
 				</ul>
         	</div>
       	</div>
